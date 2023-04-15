@@ -1,0 +1,160 @@
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.user-profile{
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+}
+button{
+  background-color: blue;
+  border-radius: 30px;
+  color: white;
+  font-size: 1.25em;
+  padding: 15px;
+  cursor: pointer;
+}
+.profile-info {
+  display: flex;
+  background-color: rgb(222, 220, 220);
+}
+.image{
+  margin: 55px 20px;
+}
+.profile-image{
+  height: auto;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.info{
+  flex-direction: column;
+  text-align: left;
+  margin: 30px 15px;
+}
+*/
+
+body{
+  background-color: rgb(166, 26, 166);
+}
+
+.Wishlist{
+  display: flex;
+  text-align: center;
+}
+
+.container{
+  background-color: rgb(61, 3, 116);
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 20px;
+}
+
+.item{
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(120, 34, 200);
+  border-radius: 10px;
+  position: relative;
+  height: 25px;
+}
+
+.actions{
+  display: inline;
+  position: absolute;
+  right: 15px;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-info{
+  display: inline;
+  position: absolute;
+  left: 15px;
+  font-size: 17px;
+  padding: 0px auto;
+}
+
+.actions button, select{
+  background-color: rgb(208, 177, 130);
+  color: black;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 8px;
+}
+
+.myForm label{
+  margin: 0px 2%;
+}
+
+.myForm input{
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 3px 15px;
+}
+
+.myForm input:focus{
+  outline: none;
+}
+
+
+.myForm button{
+  margin: 30px 0px 20px;
+  background-color: blue;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
